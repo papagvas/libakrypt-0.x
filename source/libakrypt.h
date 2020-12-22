@@ -861,6 +861,9 @@ extern "C" {
 /*! \brief Уничтожение контекста функции хеширования. */
  dll_export int ak_hash_destroy( ak_hash );
 
+ dll_export int ak_omac_acpkm(ak_bckey bkey, ak_pointer in, ak_pointer, size_t, size_t, size_t);
+
+ dll_export int ak_acpkm_master(ak_bckey, ak_pointer, ak_pointer, size_t);
 /* ----------------------------------------------------------------------------------------------- */
 /*! \brief Функция возвращает размер вырабатываемого хеш-кода (в октетах). */
  dll_export size_t ak_hash_get_tag_size( ak_hash );
