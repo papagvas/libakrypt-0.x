@@ -43,4 +43,3 @@ We support various architectures such as `x86`, `x64`, `arm32v7`, `arm32v7eb`, `
 
 Since this version still under development we don't recomended to use it
 in real security applications.
-!!Для успешной сборки должен быть создан файл test-ak_omac_acpkm.c!!
